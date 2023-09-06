@@ -290,18 +290,19 @@ function M.setup(config)
 
     -- Telescope
     TelescopeBorder = { fg = util.darken(c.fg, 0.75) },
-    -- TelescopeBorder          = { fg = c.bg_visual, bg = c.bg },
-    TelescopeNormal = { bg = c.bg },
-    TelescopePreviewBorder = { fg = c.bg, bg = c.bg },
-    TelescopePreviewNormal = { bg = c.bg },
-    TelescopePreviewTitle = { fg = c.bg, bg = c.green },
+    TelescopePromptCounter = { fg = c.bg2 },
+    TelescopeNormal = { bg = c.bg2 },
+    TelescopePreviewBorder = { fg = c.bg2, bg = c.bg2 },
+    TelescopePreviewNormal = { bg = c.bg2 },
+    TelescopePreviewTitle = { fg = c.bg2, bg = c.green },
     TelescopePromptBorder = { fg = c.bg_visual, bg = c.bg_visual },
     TelescopePromptNormal = { fg = c.fg, bg = c.bg_visual },
     TelescopePromptPrefix = { fg = c.red, bg = c.bg_visual },
-    TelescopePromptTitle = { fg = c.bg, bg = c.red },
-    TelescopeResultsBorder = { fg = c.bg, bg = c.bg },
-    TelescopeResultsNormal = { bg = c.bg },
-    TelescopeResultsTitle = { fg = c.bg, bg = c.bg },
+    TelescopePromptTitle = { fg = c.bg2, bg = c.red },
+    TelescopeResultsBorder = { fg = c.bg2, bg = c.bg2 },
+    TelescopeResultsNormal = { bg = c.bg2 },
+    TelescopeResultsTitle = { fg = c.bg2, bg = c.bg2 },
+    TelescopeSelection = { bg = c.bg_visual },
 
     -- NvimTree
     NvimTreeNormal = { fg = c.tree_normal, bg = c.bg_sidebar },
