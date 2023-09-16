@@ -339,6 +339,10 @@ function M.setup(config)
     WhichKeyFloat = { bg = c.bg_sidebar },
     WhichKeyValue = { fg = c.dark5 },
 
+    -- IndentBlankline
+    IndentBlanklineChar = { fg = c.line_cursor },
+    IndentBlanklineContextChar = { fg = c.border },
+
     -- LspSaga
     DiagnosticError = { fg = c.error },
     DiagnosticWarning = { fg = c.warning },
