@@ -324,6 +324,9 @@ function M.setup(config)
     LspDiagnosticsInformation = { fg = c.info },
     LspDiagnosticsHint = { fg = c.hint },
 
+    -- NeoTree
+    NeoTreeWinSeparator = { fg = c.bg_sidebar, bg = c.bg_sidebar },
+
     -- Dashboard
     DashboardShortCut = { fg = c.purple },
     DashboardHeader = { fg = c.red },
@@ -340,8 +343,8 @@ function M.setup(config)
     WhichKeyValue = { fg = c.dark5 },
 
     -- IndentBlankline
-    IndentBlanklineChar = { fg = c.line_cursor },
-    IndentBlanklineContextChar = { fg = c.border },
+    IblIndent = { fg = c.line_cursor },
+    IblScope = { fg = c.border },
 
     -- LspSaga
     DiagnosticError = { fg = c.error },
