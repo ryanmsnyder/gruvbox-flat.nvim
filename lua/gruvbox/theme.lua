@@ -292,6 +292,7 @@ function M.setup(config)
     TelescopeBorder = { fg = util.darken(c.fg, 0.75) },
     TelescopePromptCounter = { fg = c.border },
     TelescopeNormal = { bg = c.bg2 },
+    TelescopeMatching = { fg = c.orange },
     TelescopePreviewBorder = { fg = c.bg2, bg = c.bg2 },
     TelescopePreviewNormal = { bg = c.bg2 },
     TelescopePreviewTitle = { fg = c.bg2, bg = c.green },
