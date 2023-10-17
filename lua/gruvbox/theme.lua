@@ -302,7 +302,7 @@ function M.setup(config)
     TelescopeResultsBorder = { fg = c.bg2, bg = c.bg2 },
     TelescopeResultsNormal = { bg = c.bg2 },
     TelescopeResultsTitle = { fg = c.bg2, bg = c.bg2 },
-    TelescopeSelection = { bg = c.bg_visual },
+    TelescopeSelection = { bg = c.line_cursor },
 
     -- NvimTree
     NvimTreeNormal = { fg = c.tree_normal, bg = c.bg_sidebar },
