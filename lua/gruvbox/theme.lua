@@ -290,14 +290,14 @@ function M.setup(config)
 
     -- Telescope
     TelescopeBorder = { fg = util.darken(c.fg, 0.75) },
-    TelescopePromptCounter = { fg = c.bg2 },
+    TelescopePromptCounter = { fg = c.border },
     TelescopeNormal = { bg = c.bg2 },
     TelescopePreviewBorder = { fg = c.bg2, bg = c.bg2 },
     TelescopePreviewNormal = { bg = c.bg2 },
     TelescopePreviewTitle = { fg = c.bg2, bg = c.green },
-    TelescopePromptBorder = { fg = c.bg_visual, bg = c.bg_visual },
-    TelescopePromptNormal = { fg = c.fg, bg = c.bg_visual },
-    TelescopePromptPrefix = { fg = c.red, bg = c.bg_visual },
+    TelescopePromptBorder = { fg = c.line_cursor, bg = c.line_cursor },
+    TelescopePromptNormal = { fg = c.fg, bg = c.line_cursor },
+    TelescopePromptPrefix = { fg = c.red, bg = c.line_cursor },
     TelescopePromptTitle = { fg = c.bg2, bg = c.red },
     TelescopeResultsBorder = { fg = c.bg2, bg = c.bg2 },
     TelescopeResultsNormal = { bg = c.bg2 },
